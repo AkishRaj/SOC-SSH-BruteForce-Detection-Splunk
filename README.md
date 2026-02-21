@@ -199,7 +199,7 @@ index=main sourcetype=linux_secure "failed authentication"
 ## 👤 Author
 
 **Akish Raj.A**
-- LinkedIn: [your linkedin url]
+- LinkedIn: https://www.linkedin.com/in/akish-raj/
 
 
 ---
@@ -210,10 +210,5 @@ index=main sourcetype=linux_secure "failed authentication"
 `LogAnalysis` `KaliLinux` `EthicalHacking` `BlueTeam`
 ```
 
-
-```
-cybersecurity splunk siem soc brute-force kali-linux 
-hydra log-analysis blue-team ethical-hacking
-```
 
 
