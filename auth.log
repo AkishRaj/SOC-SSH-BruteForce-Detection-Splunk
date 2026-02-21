@@ -1,0 +1,847 @@
+2026-01-25T05:11:07.311990-08:00 kali systemd-logind[613]: New seat seat0.
+2026-01-25T05:11:07.360020-08:00 kali systemd-logind[613]: Watching system buttons on /dev/input/event1 (Power Button)
+2026-01-25T05:11:07.362183-08:00 kali systemd-logind[613]: Watching system buttons on /dev/input/event2 (Sleep Button)
+2026-01-25T05:11:07.366191-08:00 kali systemd-logind[613]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+2026-01-25T05:11:07.835027-08:00 kali polkitd[610]: Loading rules from directory /etc/polkit-1/rules.d
+2026-01-25T05:11:07.836412-08:00 kali polkitd[610]: Loading rules from directory /run/polkit-1/rules.d
+2026-01-25T05:11:07.836524-08:00 kali polkitd[610]: Error opening rules directory: Error opening directory “/run/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2026-01-25T05:11:07.838137-08:00 kali polkitd[610]: Loading rules from directory /usr/local/share/polkit-1/rules.d
+2026-01-25T05:11:07.838247-08:00 kali polkitd[610]: Error opening rules directory: Error opening directory “/usr/local/share/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2026-01-25T05:11:07.838292-08:00 kali polkitd[610]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-01-25T05:11:07.905468-08:00 kali polkitd[610]: Finished loading, compiling and executing 13 rules
+2026-01-25T05:11:07.911787-08:00 kali polkitd[610]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-01-25T05:11:08.275429-08:00 kali sshd[813]: Server listening on 0.0.0.0 port 22.
+2026-01-25T05:11:08.275800-08:00 kali sshd[813]: Server listening on :: port 22.
+2026-01-25T05:11:09.845768-08:00 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=124) by (uid=0)
+2026-01-25T05:11:09.865657-08:00 kali systemd-logind[613]: New session c1 of user lightdm.
+2026-01-25T05:11:10.030505-08:00 kali (systemd): pam_unix(systemd-user:session): session opened for user lightdm(uid=124) by lightdm(uid=0)
+2026-01-25T05:11:10.034603-08:00 kali systemd-logind[613]: New session 1 of user lightdm.
+2026-01-25T05:11:10.370785-08:00 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=124) by (uid=0)
+2026-01-25T05:11:21.336838-08:00 kali lightdm: gkr-pam: unable to locate daemon control file
+2026-01-25T05:11:21.337064-08:00 kali lightdm: gkr-pam: stashed password to try later in open session
+2026-01-25T05:11:21.419195-08:00 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2026-01-25T05:11:21.423131-08:00 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2026-01-25T05:11:21.423327-08:00 kali lightdm: pam_systemd(lightdm-greeter:session): Failed to release session: Transport endpoint is not connected
+2026-01-25T05:11:21.432082-08:00 kali systemd-logind[613]: Removed session c1.
+2026-01-25T05:11:21.433194-08:00 kali lightdm: pam_unix(lightdm:session): session opened for user tester(uid=1000) by tester(uid=0)
+2026-01-25T05:11:21.454968-08:00 kali systemd-logind[613]: New session 2 of user tester.
+2026-01-25T05:11:21.506278-08:00 kali (systemd): pam_unix(systemd-user:session): session opened for user tester(uid=1000) by tester(uid=0)
+2026-01-25T05:11:21.509176-08:00 kali systemd-logind[613]: New session 3 of user tester.
+2026-01-25T05:11:21.775242-08:00 kali lightdm: gkr-pam: unlocked login keyring
+2026-01-25T05:11:26.286521-08:00 kali polkitd[610]: Registered Authentication Agent for unix-session:2 (system bus name :1.54 [/usr/libexec/polkit-mate-authentication-agent-1], object path /org/mate/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-01-25T05:11:32.018266-08:00 kali systemd-logind[613]: Removed session 1.
+2026-01-25T05:15:01.337758-08:00 kali CRON[3445]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T05:15:01.361602-08:00 kali CRON[3445]: pam_unix(cron:session): session closed for user root
+2026-01-25T05:17:01.416148-08:00 kali CRON[4414]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T05:17:01.474755-08:00 kali CRON[4414]: pam_unix(cron:session): session closed for user root
+2026-01-25T05:25:02.140603-08:00 kali CRON[8179]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T05:25:02.363999-08:00 kali CRON[8179]: pam_unix(cron:session): session closed for user root
+2026-01-25T05:35:01.942519-08:00 kali CRON[12783]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T05:35:01.988503-08:00 kali CRON[12783]: pam_unix(cron:session): session closed for user root
+2026-01-25T05:39:01.396107-08:00 kali CRON[14607]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T05:39:01.411567-08:00 kali CRON[14607]: pam_unix(cron:session): session closed for user root
+2026-01-25T05:45:01.381943-08:00 kali CRON[17444]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T05:45:01.470831-08:00 kali CRON[17444]: pam_unix(cron:session): session closed for user root
+2026-01-25T05:55:02.395352-08:00 kali CRON[22078]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T05:55:02.509141-08:00 kali CRON[22078]: pam_unix(cron:session): session closed for user root
+2026-01-25T06:05:01.551847-08:00 kali CRON[26664]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T06:05:01.570907-08:00 kali CRON[26664]: pam_unix(cron:session): session closed for user root
+2026-01-25T06:09:01.618638-08:00 kali CRON[28568]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T06:09:01.648977-08:00 kali CRON[28568]: pam_unix(cron:session): session closed for user root
+2026-01-25T06:15:01.822619-08:00 kali CRON[31410]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T06:15:01.880393-08:00 kali CRON[31410]: pam_unix(cron:session): session closed for user root
+2026-01-25T06:17:01.958691-08:00 kali CRON[32341]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T06:17:01.983434-08:00 kali CRON[32341]: pam_unix(cron:session): session closed for user root
+2026-01-25T06:25:01.319682-08:00 kali CRON[36042]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T06:25:01.348825-08:00 kali CRON[36043]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T06:25:01.357979-08:00 kali CRON[36043]: pam_unix(cron:session): session closed for user root
+2026-01-25T06:25:01.383950-08:00 kali CRON[36042]: pam_unix(cron:session): session closed for user root
+2026-01-25T06:45:01.454624-08:00 kali CRON[40394]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T06:45:01.491364-08:00 kali CRON[40394]: pam_unix(cron:session): session closed for user root
+2026-01-25T06:47:01.544616-08:00 kali CRON[41346]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T06:47:01.595784-08:00 kali CRON[41346]: pam_unix(cron:session): session closed for user root
+2026-01-25T06:55:01.671611-08:00 kali CRON[45119]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T06:55:01.704005-08:00 kali CRON[45119]: pam_unix(cron:session): session closed for user root
+2026-01-25T07:05:01.761056-08:00 kali CRON[49819]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T07:05:01.784812-08:00 kali CRON[49819]: pam_unix(cron:session): session closed for user root
+2026-01-25T07:09:01.929213-08:00 kali CRON[51717]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T07:09:01.941992-08:00 kali CRON[51717]: pam_unix(cron:session): session closed for user root
+2026-01-25T07:15:02.000238-08:00 kali CRON[54593]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T07:15:02.026819-08:00 kali CRON[54593]: pam_unix(cron:session): session closed for user root
+2026-01-25T07:17:01.054409-08:00 kali CRON[55505]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T07:17:01.093976-08:00 kali CRON[55505]: pam_unix(cron:session): session closed for user root
+2026-01-25T07:25:01.574604-08:00 kali CRON[59294]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T07:25:01.591461-08:00 kali CRON[59294]: pam_unix(cron:session): session closed for user root
+2026-01-25T07:35:01.836477-08:00 kali CRON[63997]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T07:35:01.886474-08:00 kali CRON[63997]: pam_unix(cron:session): session closed for user root
+2026-01-25T07:39:01.919853-08:00 kali CRON[65893]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T07:39:01.948483-08:00 kali CRON[65893]: pam_unix(cron:session): session closed for user root
+2026-01-25T07:45:02.056266-08:00 kali CRON[68756]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T07:45:02.070249-08:00 kali CRON[68756]: pam_unix(cron:session): session closed for user root
+2026-01-25T07:55:01.143774-08:00 kali CRON[73479]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T07:55:01.168565-08:00 kali CRON[73479]: pam_unix(cron:session): session closed for user root
+2026-01-25T08:05:01.579215-08:00 kali CRON[78170]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T08:05:01.603617-08:00 kali CRON[78170]: pam_unix(cron:session): session closed for user root
+2026-01-25T08:09:01.758439-08:00 kali CRON[80089]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T08:09:01.772746-08:00 kali CRON[80089]: pam_unix(cron:session): session closed for user root
+2026-01-25T08:15:01.827273-08:00 kali CRON[82974]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T08:15:01.854014-08:00 kali CRON[82974]: pam_unix(cron:session): session closed for user root
+2026-01-25T08:17:01.877059-08:00 kali CRON[83895]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T08:17:01.909180-08:00 kali CRON[83895]: pam_unix(cron:session): session closed for user root
+2026-01-25T08:25:01.955739-08:00 kali CRON[87626]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T08:25:01.995798-08:00 kali CRON[87626]: pam_unix(cron:session): session closed for user root
+2026-01-25T09:55:02.710617-08:00 kali CRON[90688]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T09:55:02.851817-08:00 kali CRON[90688]: pam_unix(cron:session): session closed for user root
+2026-01-25T12:35:02.840793-08:00 kali CRON[98009]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T12:35:03.406815-08:00 kali CRON[98009]: pam_unix(cron:session): session closed for user root
+2026-01-25T12:39:01.619948-08:00 kali CRON[99822]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T12:39:01.695947-08:00 kali CRON[99822]: pam_unix(cron:session): session closed for user root
+2026-02-21T02:33:25.394202-08:00 kali systemd-logind[619]: New seat seat0.
+2026-02-21T02:33:25.394219-08:00 kali systemd-logind[619]: Watching system buttons on /dev/input/event1 (Power Button)
+2026-02-21T02:33:25.394224-08:00 kali systemd-logind[619]: Watching system buttons on /dev/input/event2 (Sleep Button)
+2026-02-21T02:33:25.394228-08:00 kali systemd-logind[619]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+2026-02-21T02:33:25.420311-08:00 kali polkitd[613]: Loading rules from directory /etc/polkit-1/rules.d
+2026-02-21T02:33:25.423242-08:00 kali polkitd[613]: Loading rules from directory /run/polkit-1/rules.d
+2026-02-21T02:33:25.423389-08:00 kali polkitd[613]: Error opening rules directory: Error opening directory “/run/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2026-02-21T02:33:25.433491-08:00 kali polkitd[613]: Loading rules from directory /usr/local/share/polkit-1/rules.d
+2026-02-21T02:33:25.460031-08:00 kali polkitd[613]: Error opening rules directory: Error opening directory “/usr/local/share/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2026-02-21T02:33:25.460303-08:00 kali polkitd[613]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-02-21T02:33:25.550733-08:00 kali polkitd[613]: Finished loading, compiling and executing 13 rules
+2026-02-21T02:33:25.564581-08:00 kali polkitd[613]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-02-21T02:33:26.567062-08:00 kali sshd[814]: Server listening on 0.0.0.0 port 22.
+2026-02-21T02:33:26.567354-08:00 kali sshd[814]: Server listening on :: port 22.
+2026-02-21T02:33:28.294321-08:00 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=124) by (uid=0)
+2026-02-21T02:33:28.320774-08:00 kali systemd-logind[619]: New session c1 of user lightdm.
+2026-02-21T02:33:28.411168-08:00 kali (systemd): pam_unix(systemd-user:session): session opened for user lightdm(uid=124) by lightdm(uid=0)
+2026-02-21T02:33:28.415637-08:00 kali systemd-logind[619]: New session 1 of user lightdm.
+2026-02-21T02:33:28.885836-08:00 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=124) by (uid=0)
+2026-02-21T02:33:47.658934-08:00 kali lightdm: gkr-pam: unable to locate daemon control file
+2026-02-21T02:33:47.659258-08:00 kali lightdm: gkr-pam: stashed password to try later in open session
+2026-02-21T02:33:47.772407-08:00 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2026-02-21T02:33:47.776044-08:00 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2026-02-21T02:33:47.776142-08:00 kali lightdm: pam_systemd(lightdm-greeter:session): Failed to release session: Transport endpoint is not connected
+2026-02-21T02:33:47.786713-08:00 kali systemd-logind[619]: Removed session c1.
+2026-02-21T02:33:47.789901-08:00 kali lightdm: pam_unix(lightdm:session): session opened for user tester(uid=1000) by tester(uid=0)
+2026-02-21T02:33:47.822473-08:00 kali systemd-logind[619]: New session 2 of user tester.
+2026-02-21T02:33:47.886942-08:00 kali (systemd): pam_unix(systemd-user:session): session opened for user tester(uid=1000) by tester(uid=0)
+2026-02-21T02:33:47.891409-08:00 kali systemd-logind[619]: New session 3 of user tester.
+2026-02-21T02:33:48.332526-08:00 kali lightdm: gkr-pam: unlocked login keyring
+2026-02-21T02:33:57.374113-08:00 kali polkitd[613]: Registered Authentication Agent for unix-session:2 (system bus name :1.54 [/usr/libexec/polkit-mate-authentication-agent-1], object path /org/mate/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-02-21T02:33:59.753630-08:00 kali systemd-logind[619]: Removed session 1.
+2026-02-21T02:35:01.360364-08:00 kali CRON[2369]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-21T02:35:01.392096-08:00 kali CRON[2369]: pam_unix(cron:session): session closed for user root
+2026-02-21T02:36:51.389019-08:00 kali sudo:   tester : TTY=pts/0 ; PWD=/home/tester ; USER=root ; COMMAND=/usr/sbin/ip link set eth0 up
+2026-02-21T02:36:51.415150-08:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by tester(uid=1000)
+2026-02-21T02:36:51.418171-08:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-02-21T02:37:43.645147-08:00 kali systemd-logind[619]: The system will power off now!
+2026-02-21T02:37:43.674068-08:00 kali systemd-logind[619]: System is powering down.
+2026-02-21T02:37:43.707762-08:00 kali ssh-agent[1273]: exiting on signal 15
+2026-02-21T02:37:43.892604-08:00 kali polkitd[613]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.54, object path /org/mate/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-02-21T02:37:43.995755-08:00 kali lightdm: pam_unix(lightdm:session): session closed for user tester
+2026-02-21T02:41:08.711833-08:00 kali systemd-logind[604]: New seat seat0.
+2026-02-21T02:41:08.789432-08:00 kali systemd-logind[604]: Watching system buttons on /dev/input/event1 (Power Button)
+2026-02-21T02:41:08.789618-08:00 kali systemd-logind[604]: Watching system buttons on /dev/input/event2 (Sleep Button)
+2026-02-21T02:41:08.806903-08:00 kali systemd-logind[604]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+2026-02-21T02:41:08.948759-08:00 kali polkitd[600]: Loading rules from directory /etc/polkit-1/rules.d
+2026-02-21T02:41:08.965734-08:00 kali polkitd[600]: Loading rules from directory /run/polkit-1/rules.d
+2026-02-21T02:41:08.979675-08:00 kali polkitd[600]: Error opening rules directory: Error opening directory “/run/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2026-02-21T02:41:08.979999-08:00 kali polkitd[600]: Loading rules from directory /usr/local/share/polkit-1/rules.d
+2026-02-21T02:41:08.980071-08:00 kali polkitd[600]: Error opening rules directory: Error opening directory “/usr/local/share/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2026-02-21T02:41:08.984237-08:00 kali polkitd[600]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-02-21T02:41:09.036155-08:00 kali polkitd[600]: Finished loading, compiling and executing 13 rules
+2026-02-21T02:41:09.052585-08:00 kali polkitd[600]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-02-21T02:41:10.074511-08:00 kali sshd[804]: Server listening on 0.0.0.0 port 22.
+2026-02-21T02:41:10.074723-08:00 kali sshd[804]: Server listening on :: port 22.
+2026-02-21T02:41:11.453281-08:00 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=124) by (uid=0)
+2026-02-21T02:41:11.520229-08:00 kali systemd-logind[604]: New session c1 of user lightdm.
+2026-02-21T02:41:11.595653-08:00 kali (systemd): pam_unix(systemd-user:session): session opened for user lightdm(uid=124) by lightdm(uid=0)
+2026-02-21T02:41:11.600340-08:00 kali systemd-logind[604]: New session 1 of user lightdm.
+2026-02-21T02:41:12.028224-08:00 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=124) by (uid=0)
+2026-02-21T02:41:22.407403-08:00 kali lightdm: pam_unix(lightdm:auth): check pass; user unknown
+2026-02-21T02:41:22.407555-08:00 kali lightdm: pam_unix(lightdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= 
+2026-02-21T02:41:22.407608-08:00 kali lightdm: pam_winbind(lightdm:auth): getting password (0x00000388)
+2026-02-21T02:41:22.407640-08:00 kali lightdm: pam_winbind(lightdm:auth): pam_get_item returned a password
+2026-02-21T02:41:34.009467-08:00 kali lightdm: gkr-pam: unable to locate daemon control file
+2026-02-21T02:41:34.010076-08:00 kali lightdm: gkr-pam: stashed password to try later in open session
+2026-02-21T02:41:34.228364-08:00 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2026-02-21T02:41:34.231697-08:00 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2026-02-21T02:41:34.231803-08:00 kali lightdm: pam_systemd(lightdm-greeter:session): Failed to release session: Transport endpoint is not connected
+2026-02-21T02:41:34.244188-08:00 kali systemd-logind[604]: Removed session c1.
+2026-02-21T02:41:34.244477-08:00 kali lightdm: pam_unix(lightdm:session): session opened for user tester(uid=1000) by tester(uid=0)
+2026-02-21T02:41:34.271965-08:00 kali systemd-logind[604]: New session 2 of user tester.
+2026-02-21T02:41:34.361903-08:00 kali (systemd): pam_unix(systemd-user:session): session opened for user tester(uid=1000) by tester(uid=0)
+2026-02-21T02:41:34.370092-08:00 kali systemd-logind[604]: New session 3 of user tester.
+2026-02-21T02:41:34.755949-08:00 kali lightdm: gkr-pam: unlocked login keyring
+2026-02-21T02:41:40.704927-08:00 kali polkitd[600]: Registered Authentication Agent for unix-session:2 (system bus name :1.55 [/usr/libexec/polkit-mate-authentication-agent-1], object path /org/mate/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-02-21T02:41:44.647934-08:00 kali (sd-pam): pam_unix(systemd-user:session): session closed for user lightdm
+2026-02-21T02:41:44.648345-08:00 kali systemd-logind[604]: Removed session 1.
+2026-02-21T02:42:15.405107-08:00 kali sudo:   tester : TTY=pts/0 ; PWD=/home/tester ; USER=root ; COMMAND=/usr/sbin/ip link set eth0 up
+2026-02-21T02:42:15.412259-08:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by tester(uid=1000)
+2026-02-21T02:42:15.416531-08:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-02-21T02:45:01.642977-08:00 kali CRON[3404]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-21T02:45:01.654752-08:00 kali CRON[3404]: pam_unix(cron:session): session closed for user root
+2026-02-21T02:45:04.785720-08:00 kali sudo:   tester : TTY=pts/0 ; PWD=/home/tester ; USER=root ; COMMAND=/usr/sbin/dhcpcd eth0
+2026-02-21T02:45:04.791500-08:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by tester(uid=1000)
+2026-02-21T02:45:36.101540-08:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-02-21T02:46:13.460194-08:00 kali sudo:   tester : TTY=pts/0 ; PWD=/home/tester ; USER=root ; COMMAND=/usr/bin/systemctl restart NetworkManager
+2026-02-21T02:46:13.469399-08:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by tester(uid=1000)
+2026-02-21T02:46:14.004000-08:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-02-21T02:46:44.213843-08:00 kali sudo:   tester : TTY=pts/0 ; PWD=/home/tester ; USER=root ; COMMAND=/usr/sbin/ip link set eth0 up
+2026-02-21T02:46:44.215065-08:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by tester(uid=1000)
+2026-02-21T02:46:44.225107-08:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-02-21T02:46:49.981889-08:00 kali sudo:   tester : TTY=pts/0 ; PWD=/home/tester ; USER=root ; COMMAND=/usr/bin/systemctl restart NetworkManager
+2026-02-21T02:46:49.985027-08:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by tester(uid=1000)
+2026-02-21T02:46:50.442368-08:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-02-21T02:47:14.861564-08:00 kali sudo:   tester : TTY=pts/0 ; PWD=/home/tester ; USER=root ; COMMAND=/usr/bin/nmcli device status
+2026-02-21T02:47:14.864908-08:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by tester(uid=1000)
+2026-02-21T02:47:14.934535-08:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-02-21T02:47:46.818241-08:00 kali sudo:   tester : TTY=pts/0 ; PWD=/home/tester ; USER=root ; COMMAND=/usr/bin/nmcli device connect eth0
+2026-02-21T02:47:46.821110-08:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by tester(uid=1000)
+2026-02-21T02:47:46.880997-08:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-02-21T02:55:01.797567-08:00 kali CRON[7967]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-21T02:55:01.849717-08:00 kali CRON[7967]: pam_unix(cron:session): session closed for user root
+2026-02-21T02:55:58.202133-08:00 kali xfce4-screensaver-dialog: gkr-pam: unlocked login keyring
+2026-02-21T02:55:58.218322-08:00 kali xfce4-screensaver-dialog: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+2026-02-21T03:01:35.461219-08:00 kali sudo:   tester : TTY=pts/0 ; PWD=/home/tester ; USER=root ; COMMAND=/usr/bin/apt update
+2026-02-21T03:01:35.481184-08:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by tester(uid=1000)
+2026-02-21T03:01:38.806788-08:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-02-21T03:01:48.064677-08:00 kali sudo:   tester : TTY=pts/0 ; PWD=/home/tester ; USER=root ; COMMAND=/usr/bin/apt update
+2026-02-21T03:01:48.067196-08:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by tester(uid=1000)
+2026-02-21T03:01:48.966567-08:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-02-21T03:04:09.251663-08:00 kali sudo:   tester : TTY=pts/0 ; PWD=/home/tester ; USER=root ; COMMAND=/usr/bin/systemctl enable ssh
+2026-02-21T03:04:09.309012-08:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by tester(uid=1000)
+2026-02-21T03:04:10.813251-08:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-02-21T03:04:25.426207-08:00 kali sudo:   tester : TTY=pts/0 ; PWD=/home/tester ; USER=root ; COMMAND=/usr/bin/systemctl start ssh
+2026-02-21T03:04:25.429960-08:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by tester(uid=1000)
+2026-02-21T03:04:25.450296-08:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-02-21T03:04:37.848684-08:00 kali sudo:   tester : TTY=pts/0 ; PWD=/home/tester ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+2026-02-21T03:04:37.851558-08:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by tester(uid=1000)
+2026-02-21T03:04:37.927851-08:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-02-21T03:04:54.502830-08:00 kali sudo:   tester : TTY=pts/0 ; PWD=/home/tester ; USER=root ; COMMAND=/usr/sbin/adduser testuser
+2026-02-21T03:04:54.507844-08:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by tester(uid=1000)
+2026-02-21T03:04:54.774672-08:00 kali groupadd[13301]: group added to /etc/group: name=testuser, GID=1001
+2026-02-21T03:04:54.782399-08:00 kali groupadd[13301]: group added to /etc/gshadow: name=testuser
+2026-02-21T03:04:54.784536-08:00 kali groupadd[13301]: new group: name=testuser, GID=1001
+2026-02-21T03:04:54.834676-08:00 kali useradd[13306]: new user: name=testuser, UID=1001, GID=1001, home=/home/testuser, shell=/bin/bash, from=/dev/pts/1
+2026-02-21T03:05:01.893696-08:00 kali CRON[13374]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-21T03:05:01.906115-08:00 kali CRON[13374]: pam_unix(cron:session): session closed for user root
+2026-02-21T03:05:08.871354-08:00 kali passwd[13323]: pam_unix(passwd:chauthtok): password changed for testuser
+2026-02-21T03:05:08.910871-08:00 kali passwd[13323]: gkr-pam: couldn't update the login keyring password: no old password was entered
+2026-02-21T03:05:51.013539-08:00 kali chfn[13437]: changed user 'testuser' information
+2026-02-21T03:05:55.462037-08:00 kali gpasswd[13821]: members of group users set by root to tester,testuser
+2026-02-21T03:05:55.468390-08:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-02-21T03:09:02.016020-08:00 kali CRON[15461]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-21T03:09:02.049522-08:00 kali CRON[15461]: pam_unix(cron:session): session closed for user root
+2026-02-21T03:10:01.190711-08:00 kali CRON[16024]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-21T03:10:01.225602-08:00 kali CRON[16024]: pam_unix(cron:session): session closed for user root
+2026-02-21T03:11:55.609135-08:00 kali sudo:   tester : TTY=pts/1 ; PWD=/home/tester ; USER=root ; COMMAND=/usr/bin/dpkg -i splunkforwarder.deb
+2026-02-21T03:11:55.631800-08:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by tester(uid=1000)
+2026-02-21T03:11:55.862269-08:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-02-21T03:14:34.444273-08:00 kali sudo:   tester : TTY=pts/1 ; PWD=/home/tester ; USER=root ; COMMAND=/usr/bin/dpkg -i splunkforwarder.deb
+2026-02-21T03:14:34.454227-08:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by tester(uid=1000)
+2026-02-21T03:14:34.638784-08:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-02-21T03:15:01.404965-08:00 kali CRON[18595]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-21T03:15:01.443628-08:00 kali CRON[18595]: pam_unix(cron:session): session closed for user root
+2026-02-21T03:16:34.786663-08:00 kali sudo:   tester : TTY=pts/1 ; PWD=/home/tester ; USER=root ; COMMAND=/usr/bin/apt install ca-certificates -y
+2026-02-21T03:16:34.797887-08:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by tester(uid=1000)
+2026-02-21T03:16:36.942265-08:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-02-21T03:16:55.961027-08:00 kali sudo:   tester : TTY=pts/1 ; PWD=/home/tester ; USER=root ; COMMAND=/usr/sbin/update-ca-certificates
+2026-02-21T03:16:55.967121-08:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by tester(uid=1000)
+2026-02-21T03:16:57.543707-08:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-02-21T03:17:01.462334-08:00 kali CRON[20460]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-21T03:17:01.472726-08:00 kali CRON[20460]: pam_unix(cron:session): session closed for user root
+2026-02-21T03:24:54.129753-08:00 kali sudo:   tester : TTY=pts/1 ; PWD=/home/tester ; USER=root ; COMMAND=/usr/bin/gpg --yes --dearmor --output/usr/share/keyrings/cloudflare-wrap-archive-keyring.gpg
+2026-02-21T03:24:54.173104-08:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by tester(uid=1000)
+2026-02-21T03:24:54.195667-08:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-02-21T03:25:01.581578-08:00 kali CRON[25038]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-21T03:25:01.615092-08:00 kali CRON[25038]: pam_unix(cron:session): session closed for user root
+2026-02-21T03:26:26.732225-08:00 kali sudo:   tester : TTY=pts/1 ; PWD=/home/tester ; USER=root ; COMMAND=/usr/bin/gpg --yes --dearmor --output/usr/share/keyrings/cloudflare-wrap-archive-keyring.gpg
+2026-02-21T03:26:26.784549-08:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by tester(uid=1000)
+2026-02-21T03:26:26.801801-08:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-02-21T03:30:21.637552-08:00 kali sudo:   tester : TTY=pts/1 ; PWD=/home/tester ; USER=root ; COMMAND=/usr/bin/sh -c
+2026-02-21T03:30:21.788801-08:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by tester(uid=1000)
+2026-02-21T03:30:21.805911-08:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-02-21T03:31:15.305245-08:00 kali systemd-logind[604]: The system will reboot now!
+2026-02-21T03:31:15.330013-08:00 kali systemd-logind[604]: System is rebooting.
+2026-02-21T03:31:15.352816-08:00 kali ssh-agent[1255]: exiting on signal 15
+2026-02-21T03:31:15.533312-08:00 kali polkitd[600]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.55, object path /org/mate/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-02-21T03:31:15.564743-08:00 kali lightdm: pam_unix(lightdm:session): session closed for user tester
+2026-02-21T03:30:55.146286-08:00 kali systemd-logind[609]: New seat seat0.
+2026-02-21T03:30:55.147842-08:00 kali systemd-logind[609]: Watching system buttons on /dev/input/event1 (Power Button)
+2026-02-21T03:30:55.147925-08:00 kali systemd-logind[609]: Watching system buttons on /dev/input/event2 (Sleep Button)
+2026-02-21T03:30:55.154813-08:00 kali systemd-logind[609]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+2026-02-21T03:30:55.270059-08:00 kali polkitd[605]: Loading rules from directory /etc/polkit-1/rules.d
+2026-02-21T03:30:55.271271-08:00 kali polkitd[605]: Loading rules from directory /run/polkit-1/rules.d
+2026-02-21T03:30:55.271337-08:00 kali polkitd[605]: Error opening rules directory: Error opening directory “/run/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2026-02-21T03:30:55.295084-08:00 kali polkitd[605]: Loading rules from directory /usr/local/share/polkit-1/rules.d
+2026-02-21T03:30:55.296762-08:00 kali polkitd[605]: Error opening rules directory: Error opening directory “/usr/local/share/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2026-02-21T03:30:55.297714-08:00 kali polkitd[605]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-02-21T03:30:55.364289-08:00 kali polkitd[605]: Finished loading, compiling and executing 13 rules
+2026-02-21T03:30:55.384487-08:00 kali polkitd[605]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-02-21T03:30:56.018391-08:00 kali sshd[777]: Server listening on 0.0.0.0 port 22.
+2026-02-21T03:30:56.018650-08:00 kali sshd[777]: Server listening on :: port 22.
+2026-02-21T03:30:57.544566-08:00 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=124) by (uid=0)
+2026-02-21T03:30:57.561389-08:00 kali systemd-logind[609]: New session c1 of user lightdm.
+2026-02-21T03:30:57.664794-08:00 kali (systemd): pam_unix(systemd-user:session): session opened for user lightdm(uid=124) by lightdm(uid=0)
+2026-02-21T03:30:57.668116-08:00 kali systemd-logind[609]: New session 1 of user lightdm.
+2026-02-21T03:30:57.929725-08:00 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=124) by (uid=0)
+2026-02-21T03:31:09.683944-08:00 kali lightdm: gkr-pam: unable to locate daemon control file
+2026-02-21T03:31:09.684092-08:00 kali lightdm: gkr-pam: stashed password to try later in open session
+2026-02-21T03:31:09.754552-08:00 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2026-02-21T03:31:09.757108-08:00 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2026-02-21T03:31:09.757262-08:00 kali lightdm: pam_systemd(lightdm-greeter:session): Failed to release session: Transport endpoint is not connected
+2026-02-21T03:31:09.765742-08:00 kali systemd-logind[609]: Removed session c1.
+2026-02-21T03:31:09.765906-08:00 kali lightdm: pam_unix(lightdm:session): session opened for user tester(uid=1000) by tester(uid=0)
+2026-02-21T03:31:09.782399-08:00 kali systemd-logind[609]: New session 2 of user tester.
+2026-02-21T03:31:09.834107-08:00 kali (systemd): pam_unix(systemd-user:session): session opened for user tester(uid=1000) by tester(uid=0)
+2026-02-21T03:31:09.837403-08:00 kali systemd-logind[609]: New session 3 of user tester.
+2026-02-21T03:31:10.102059-08:00 kali lightdm: gkr-pam: unlocked login keyring
+2026-02-21T03:31:13.580414-08:00 kali polkitd[605]: Registered Authentication Agent for unix-session:2 (system bus name :1.53 [/usr/libexec/polkit-mate-authentication-agent-1], object path /org/mate/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-02-21T03:31:20.083247-08:00 kali (sd-pam): pam_unix(systemd-user:session): session closed for user lightdm
+2026-02-21T03:31:20.093939-08:00 kali systemd-logind[609]: Removed session 1.
+2026-02-21T03:35:00.532562-08:00 kali systemd-logind[609]: The system will power off now!
+2026-02-21T03:35:00.551325-08:00 kali systemd-logind[609]: System is powering down.
+                                                                                                                                                                                                                                                                                                                                                                                                                        2026-02-21T03:37:31.183361-08:00 kali systemd-logind[614]: New seat seat0.
+2026-02-21T03:37:31.183363-08:00 kali systemd-logind[614]: Watching system buttons on /dev/input/event1 (Power Button)
+2026-02-21T03:37:31.183365-08:00 kali systemd-logind[614]: Watching system buttons on /dev/input/event2 (Sleep Button)
+2026-02-21T03:37:31.183366-08:00 kali systemd-logind[614]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+2026-02-21T03:37:31.183398-08:00 kali polkitd[610]: Loading rules from directory /etc/polkit-1/rules.d
+2026-02-21T03:37:31.183400-08:00 kali polkitd[610]: Loading rules from directory /run/polkit-1/rules.d
+2026-02-21T03:37:31.183402-08:00 kali polkitd[610]: Error opening rules directory: Error opening directory “/run/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2026-02-21T03:37:31.181789-08:00 kali polkitd[610]: Loading rules from directory /usr/local/share/polkit-1/rules.d
+2026-02-21T03:37:31.181845-08:00 kali polkitd[610]: Error opening rules directory: Error opening directory “/usr/local/share/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2026-02-21T03:37:31.182055-08:00 kali polkitd[610]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-02-21T03:37:31.247332-08:00 kali polkitd[610]: Finished loading, compiling and executing 13 rules
+2026-02-21T03:37:31.269974-08:00 kali polkitd[610]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-02-21T03:37:31.839082-08:00 kali sshd[778]: Server listening on 0.0.0.0 port 22.
+2026-02-21T03:37:31.839200-08:00 kali sshd[778]: Server listening on :: port 22.
+2026-02-21T03:37:33.170728-08:00 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=124) by (uid=0)
+2026-02-21T03:37:33.193962-08:00 kali systemd-logind[614]: New session c1 of user lightdm.
+2026-02-21T03:37:33.312737-08:00 kali (systemd): pam_unix(systemd-user:session): session opened for user lightdm(uid=124) by lightdm(uid=0)
+2026-02-21T03:37:33.316992-08:00 kali systemd-logind[614]: New session 1 of user lightdm.
+2026-02-21T03:37:33.710852-08:00 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=124) by (uid=0)
+2026-02-21T03:37:45.520269-08:00 kali lightdm: gkr-pam: unable to locate daemon control file
+2026-02-21T03:37:45.520411-08:00 kali lightdm: gkr-pam: stashed password to try later in open session
+2026-02-21T03:37:45.598106-08:00 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2026-02-21T03:37:45.600149-08:00 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2026-02-21T03:37:45.600289-08:00 kali lightdm: pam_systemd(lightdm-greeter:session): Failed to release session: Transport endpoint is not connected
+2026-02-21T03:37:45.607786-08:00 kali systemd-logind[614]: Removed session c1.
+2026-02-21T03:37:45.608000-08:00 kali lightdm: pam_unix(lightdm:session): session opened for user tester(uid=1000) by tester(uid=0)
+2026-02-21T03:37:45.632146-08:00 kali systemd-logind[614]: New session 2 of user tester.
+2026-02-21T03:37:45.760470-08:00 kali (systemd): pam_unix(systemd-user:session): session opened for user tester(uid=1000) by tester(uid=0)
+2026-02-21T03:37:45.767348-08:00 kali systemd-logind[614]: New session 3 of user tester.
+2026-02-21T03:37:46.098277-08:00 kali lightdm: gkr-pam: unlocked login keyring
+2026-02-21T03:37:49.814827-08:00 kali polkitd[610]: Registered Authentication Agent for unix-session:2 (system bus name :1.54 [/usr/libexec/polkit-mate-authentication-agent-1], object path /org/mate/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-02-21T03:37:55.926591-08:00 kali systemd-logind[614]: Removed session 1.
+2026-02-21T03:39:01.663108-08:00 kali CRON[2292]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-21T03:39:01.674111-08:00 kali CRON[2292]: pam_unix(cron:session): session closed for user root
+2026-02-21T03:43:19.479155-08:00 kali sudo:   tester : TTY=pts/0 ; PWD=/home/tester ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+2026-02-21T03:43:19.486291-08:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by tester(uid=1000)
+2026-02-21T03:43:19.599121-08:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-02-21T03:44:10.940868-08:00 kali sudo:   tester : TTY=pts/0 ; PWD=/home/tester ; USER=root ; COMMAND=/usr/bin/gunzip /usr/share/wordlists/rockyou.txt.gz
+2026-02-21T03:44:10.943911-08:00 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by tester(uid=1000)
+2026-02-21T03:44:13.103702-08:00 kali sudo: pam_unix(sudo:session): session closed for user root
+2026-02-21T03:45:02.071083-08:00 kali CRON[5311]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-21T03:45:02.173089-08:00 kali CRON[5311]: pam_unix(cron:session): session closed for user root
+2026-02-21T03:48:31.998441-08:00 kali sshd-session[7106]: Received disconnect from 192.168.66.109 port 39800:11: Bye Bye [preauth]
+2026-02-21T03:48:32.012556-08:00 kali sshd-session[7106]: Disconnected from authenticating user testuser 192.168.66.109 port 39800 [preauth]
+2026-02-21T03:48:32.446840-08:00 kali unix_chkpwd[7128]: password check failed for user (testuser)
+2026-02-21T03:48:32.466287-08:00 kali sshd-session[7121]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.66.109  user=testuser
+2026-02-21T03:48:32.471627-08:00 kali sshd-session[7121]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:48:32.473587-08:00 kali sshd-session[7121]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:48:32.474772-08:00 kali sshd-session[7121]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:48:32.475608-08:00 kali sshd-session[7121]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:48:32.488256-08:00 kali unix_chkpwd[7130]: password check failed for user (testuser)
+2026-02-21T03:48:32.491208-08:00 kali sshd-session[7122]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.66.109  user=testuser
+2026-02-21T03:48:32.492283-08:00 kali sshd-session[7122]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:48:32.492570-08:00 kali sshd-session[7122]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:48:32.493228-08:00 kali sshd-session[7122]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:48:32.493672-08:00 kali sshd-session[7122]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:48:32.511211-08:00 kali unix_chkpwd[7131]: password check failed for user (testuser)
+2026-02-21T03:48:32.515427-08:00 kali sshd-session[7123]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.66.109  user=testuser
+2026-02-21T03:48:32.516409-08:00 kali sshd-session[7123]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:48:32.516542-08:00 kali sshd-session[7123]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:48:32.516960-08:00 kali sshd-session[7123]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:48:32.517167-08:00 kali sshd-session[7123]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:48:32.522617-08:00 kali unix_chkpwd[7129]: password check failed for user (testuser)
+2026-02-21T03:48:32.525886-08:00 kali sshd-session[7120]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.66.109  user=testuser
+2026-02-21T03:48:32.526353-08:00 kali sshd-session[7120]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:48:32.526717-08:00 kali sshd-session[7120]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:48:32.527122-08:00 kali sshd-session[7120]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:48:32.527207-08:00 kali sshd-session[7120]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:48:34.645342-08:00 kali sshd-session[7120]: Failed password for testuser from 192.168.66.109 port 39804 ssh2
+2026-02-21T03:48:34.931135-08:00 kali sshd-session[7121]: Failed password for testuser from 192.168.66.109 port 39820 ssh2
+2026-02-21T03:48:34.968959-08:00 kali sshd-session[7123]: Failed password for testuser from 192.168.66.109 port 39808 ssh2
+2026-02-21T03:48:34.972695-08:00 kali sshd-session[7122]: Failed password for testuser from 192.168.66.109 port 39826 ssh2
+2026-02-21T03:48:36.357366-08:00 kali unix_chkpwd[7166]: password check failed for user (testuser)
+2026-02-21T03:48:36.357723-08:00 kali sshd-session[7122]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:48:36.357770-08:00 kali sshd-session[7122]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:48:36.358103-08:00 kali sshd-session[7122]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:48:36.358173-08:00 kali sshd-session[7122]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:48:36.375101-08:00 kali unix_chkpwd[7164]: password check failed for user (testuser)
+2026-02-21T03:48:36.377408-08:00 kali sshd-session[7121]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:48:36.378283-08:00 kali sshd-session[7121]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:48:36.379182-08:00 kali sshd-session[7121]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:48:36.379882-08:00 kali sshd-session[7121]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:48:36.383173-08:00 kali unix_chkpwd[7165]: password check failed for user (testuser)
+2026-02-21T03:48:36.383683-08:00 kali sshd-session[7120]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:48:36.383749-08:00 kali sshd-session[7120]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:48:36.384095-08:00 kali sshd-session[7120]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:48:36.384141-08:00 kali sshd-session[7120]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:48:36.400625-08:00 kali unix_chkpwd[7167]: password check failed for user (testuser)
+2026-02-21T03:48:36.400979-08:00 kali sshd-session[7123]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:48:36.401077-08:00 kali sshd-session[7123]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:48:36.401146-08:00 kali sshd-session[7123]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:48:36.401214-08:00 kali sshd-session[7123]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:48:38.140616-08:00 kali sshd-session[7122]: Failed password for testuser from 192.168.66.109 port 39826 ssh2
+2026-02-21T03:48:38.260966-08:00 kali unix_chkpwd[7184]: password check failed for user (testuser)
+2026-02-21T03:48:38.262895-08:00 kali sshd-session[7122]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:48:38.263414-08:00 kali sshd-session[7122]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:48:38.263751-08:00 kali sshd-session[7122]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:48:38.264198-08:00 kali sshd-session[7122]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:48:38.488953-08:00 kali sshd-session[7121]: Failed password for testuser from 192.168.66.109 port 39820 ssh2
+2026-02-21T03:48:38.888369-08:00 kali sshd-session[7123]: Failed password for testuser from 192.168.66.109 port 39808 ssh2
+2026-02-21T03:48:39.013869-08:00 kali sshd-session[7120]: Failed password for testuser from 192.168.66.109 port 39804 ssh2
+2026-02-21T03:48:40.208326-08:00 kali unix_chkpwd[7201]: password check failed for user (testuser)
+2026-02-21T03:48:40.209231-08:00 kali sshd-session[7121]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:48:40.209389-08:00 kali sshd-session[7121]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:48:40.209428-08:00 kali sshd-session[7121]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:48:40.209749-08:00 kali sshd-session[7121]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:48:40.289965-08:00 kali unix_chkpwd[7202]: password check failed for user (testuser)
+2026-02-21T03:48:40.292426-08:00 kali sshd-session[7120]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:48:40.292614-08:00 kali sshd-session[7120]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:48:40.292751-08:00 kali sshd-session[7120]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:48:40.293245-08:00 kali sshd-session[7120]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:48:40.318809-08:00 kali unix_chkpwd[7203]: password check failed for user (testuser)
+2026-02-21T03:48:40.319711-08:00 kali sshd-session[7123]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:48:40.319985-08:00 kali sshd-session[7123]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:48:40.320405-08:00 kali sshd-session[7123]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:48:40.320974-08:00 kali sshd-session[7123]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:48:40.379685-08:00 kali sshd-session[7122]: Failed password for testuser from 192.168.66.109 port 39826 ssh2
+2026-02-21T03:48:41.969615-08:00 kali sshd-session[7120]: Failed password for testuser from 192.168.66.109 port 39804 ssh2
+2026-02-21T03:48:42.001326-08:00 kali sshd-session[7123]: Failed password for testuser from 192.168.66.109 port 39808 ssh2
+2026-02-21T03:48:42.180673-08:00 kali unix_chkpwd[7220]: password check failed for user (testuser)
+2026-02-21T03:48:42.181491-08:00 kali sshd-session[7120]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:48:42.181906-08:00 kali sshd-session[7120]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:48:42.182426-08:00 kali sshd-session[7120]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:48:42.182534-08:00 kali sshd-session[7120]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:48:42.191159-08:00 kali unix_chkpwd[7221]: password check failed for user (testuser)
+2026-02-21T03:48:42.194741-08:00 kali sshd-session[7122]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:48:42.196305-08:00 kali sshd-session[7122]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:48:42.196364-08:00 kali sshd-session[7122]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:48:42.196789-08:00 kali sshd-session[7122]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:48:42.280014-08:00 kali unix_chkpwd[7222]: password check failed for user (testuser)
+2026-02-21T03:48:42.280517-08:00 kali sshd-session[7123]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:48:42.280571-08:00 kali sshd-session[7123]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:48:42.280610-08:00 kali sshd-session[7123]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:48:42.280647-08:00 kali sshd-session[7123]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:48:42.354194-08:00 kali sshd-session[7121]: Failed password for testuser from 192.168.66.109 port 39820 ssh2
+2026-02-21T03:48:43.980275-08:00 kali sshd-session[7122]: Failed password for testuser from 192.168.66.109 port 39826 ssh2
+2026-02-21T03:48:43.985843-08:00 kali sshd-session[7123]: Failed password for testuser from 192.168.66.109 port 39808 ssh2
+2026-02-21T03:48:44.116803-08:00 kali unix_chkpwd[7239]: password check failed for user (testuser)
+2026-02-21T03:48:44.118432-08:00 kali sshd-session[7121]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:48:44.118580-08:00 kali sshd-session[7121]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:48:44.118625-08:00 kali sshd-session[7121]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:48:44.118904-08:00 kali sshd-session[7121]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:48:44.142852-08:00 kali unix_chkpwd[7240]: password check failed for user (testuser)
+2026-02-21T03:48:44.143074-08:00 kali sshd-session[7122]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:48:44.143139-08:00 kali sshd-session[7122]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:48:44.143209-08:00 kali sshd-session[7122]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:48:44.143257-08:00 kali sshd-session[7122]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:48:44.231162-08:00 kali unix_chkpwd[7241]: password check failed for user (testuser)
+2026-02-21T03:48:44.232007-08:00 kali sshd-session[7123]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:48:44.232096-08:00 kali sshd-session[7123]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:48:44.232379-08:00 kali sshd-session[7123]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:48:44.232406-08:00 kali sshd-session[7123]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:48:44.454799-08:00 kali sshd-session[7120]: Failed password for testuser from 192.168.66.109 port 39804 ssh2
+2026-02-21T03:48:46.087822-08:00 kali unix_chkpwd[7258]: password check failed for user (testuser)
+2026-02-21T03:48:46.088563-08:00 kali sshd-session[7120]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:48:46.088637-08:00 kali sshd-session[7120]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:48:46.088653-08:00 kali sshd-session[7120]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:48:46.088696-08:00 kali sshd-session[7120]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:48:46.201096-08:00 kali sshd-session[7122]: Failed password for testuser from 192.168.66.109 port 39826 ssh2
+2026-02-21T03:48:46.230081-08:00 kali sshd-session[7123]: Failed password for testuser from 192.168.66.109 port 39808 ssh2
+2026-02-21T03:48:46.356626-08:00 kali sshd-session[7121]: Failed password for testuser from 192.168.66.109 port 39820 ssh2
+2026-02-21T03:48:48.026175-08:00 kali unix_chkpwd[7275]: password check failed for user (testuser)
+2026-02-21T03:48:48.027187-08:00 kali sshd-session[7121]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:48:48.027569-08:00 kali sshd-session[7121]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:48:48.027632-08:00 kali sshd-session[7121]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:48:48.027918-08:00 kali sshd-session[7121]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:48:48.053563-08:00 kali unix_chkpwd[7276]: password check failed for user (testuser)
+2026-02-21T03:48:48.054787-08:00 kali sshd-session[7122]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:48:48.054914-08:00 kali sshd-session[7122]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:48:48.054945-08:00 kali sshd-session[7122]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:48:48.054995-08:00 kali sshd-session[7122]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:48:48.070254-08:00 kali sshd-session[7120]: Failed password for testuser from 192.168.66.109 port 39804 ssh2
+2026-02-21T03:48:48.149197-08:00 kali unix_chkpwd[7277]: password check failed for user (testuser)
+2026-02-21T03:48:48.150233-08:00 kali sshd-session[7123]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:48:48.150581-08:00 kali sshd-session[7123]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:48:48.150664-08:00 kali sshd-session[7123]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:48:48.150842-08:00 kali sshd-session[7123]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:48:49.950066-08:00 kali sshd-session[7123]: Failed password for testuser from 192.168.66.109 port 39808 ssh2
+2026-02-21T03:48:49.998593-08:00 kali unix_chkpwd[7286]: password check failed for user (testuser)
+2026-02-21T03:48:49.998939-08:00 kali sshd-session[7120]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:48:49.999021-08:00 kali sshd-session[7120]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:48:49.999037-08:00 kali sshd-session[7120]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:48:49.999077-08:00 kali sshd-session[7120]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:48:50.075001-08:00 kali sshd-session[7123]: error: maximum authentication attempts exceeded for testuser from 192.168.66.109 port 39808 ssh2 [preauth]
+2026-02-21T03:48:50.076897-08:00 kali sshd-session[7123]: Disconnecting authenticating user testuser 192.168.66.109 port 39808: Too many authentication failures [preauth]
+2026-02-21T03:48:50.078872-08:00 kali sshd-session[7123]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.66.109  user=testuser
+2026-02-21T03:48:50.079869-08:00 kali sshd-session[7123]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-02-21T03:48:50.197209-08:00 kali unix_chkpwd[7297]: password check failed for user (testuser)
+2026-02-21T03:48:50.197821-08:00 kali sshd-session[7295]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.66.109  user=testuser
+2026-02-21T03:48:50.197934-08:00 kali sshd-session[7295]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:48:50.197987-08:00 kali sshd-session[7295]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:48:50.198022-08:00 kali sshd-session[7295]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:48:50.198409-08:00 kali sshd-session[7295]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:48:50.269412-08:00 kali sshd-session[7121]: Failed password for testuser from 192.168.66.109 port 39820 ssh2
+2026-02-21T03:48:50.285143-08:00 kali sshd-session[7122]: Failed password for testuser from 192.168.66.109 port 39826 ssh2
+2026-02-21T03:48:51.935224-08:00 kali sshd-session[7122]: error: maximum authentication attempts exceeded for testuser from 192.168.66.109 port 39826 ssh2 [preauth]
+2026-02-21T03:48:51.936542-08:00 kali sshd-session[7122]: Disconnecting authenticating user testuser 192.168.66.109 port 39826: Too many authentication failures [preauth]
+2026-02-21T03:48:51.937822-08:00 kali sshd-session[7122]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.66.109  user=testuser
+2026-02-21T03:48:51.940562-08:00 kali sshd-session[7122]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-02-21T03:48:51.973558-08:00 kali unix_chkpwd[7306]: password check failed for user (testuser)
+2026-02-21T03:48:51.973767-08:00 kali sshd-session[7121]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:48:51.973793-08:00 kali sshd-session[7121]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:48:51.973917-08:00 kali sshd-session[7121]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:48:51.973999-08:00 kali sshd-session[7121]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:48:52.004164-08:00 kali sshd-session[7120]: Failed password for testuser from 192.168.66.109 port 39804 ssh2
+2026-02-21T03:48:52.054314-08:00 kali unix_chkpwd[7317]: password check failed for user (testuser)
+2026-02-21T03:48:52.056575-08:00 kali sshd-session[7307]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.66.109  user=testuser
+2026-02-21T03:48:52.057338-08:00 kali sshd-session[7307]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:48:52.057407-08:00 kali sshd-session[7307]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:48:52.057466-08:00 kali sshd-session[7307]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:48:52.057519-08:00 kali sshd-session[7307]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:48:52.449026-08:00 kali sshd-session[7295]: Failed password for testuser from 192.168.66.109 port 34172 ssh2
+2026-02-21T03:48:53.885904-08:00 kali sshd-session[7120]: error: maximum authentication attempts exceeded for testuser from 192.168.66.109 port 39804 ssh2 [preauth]
+2026-02-21T03:48:53.887390-08:00 kali sshd-session[7120]: Disconnecting authenticating user testuser 192.168.66.109 port 39804: Too many authentication failures [preauth]
+2026-02-21T03:48:53.887847-08:00 kali sshd-session[7120]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.66.109  user=testuser
+2026-02-21T03:48:53.888489-08:00 kali sshd-session[7120]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-02-21T03:48:53.994044-08:00 kali unix_chkpwd[7328]: password check failed for user (testuser)
+2026-02-21T03:48:53.998345-08:00 kali sshd-session[7326]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.66.109  user=testuser
+2026-02-21T03:48:53.998871-08:00 kali sshd-session[7326]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:48:53.998930-08:00 kali sshd-session[7326]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:48:53.998969-08:00 kali sshd-session[7326]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:48:53.998983-08:00 kali sshd-session[7326]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:48:54.125510-08:00 kali unix_chkpwd[7337]: password check failed for user (testuser)
+2026-02-21T03:48:54.125976-08:00 kali sshd-session[7295]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:48:54.126036-08:00 kali sshd-session[7295]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:48:54.126071-08:00 kali sshd-session[7295]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:48:54.126122-08:00 kali sshd-session[7295]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:48:54.155763-08:00 kali sshd-session[7307]: Failed password for testuser from 192.168.66.109 port 34182 ssh2
+2026-02-21T03:48:54.256484-08:00 kali sshd-session[7121]: Failed password for testuser from 192.168.66.109 port 39820 ssh2
+2026-02-21T03:48:55.843137-08:00 kali sshd-session[7121]: error: maximum authentication attempts exceeded for testuser from 192.168.66.109 port 39820 ssh2 [preauth]
+2026-02-21T03:48:55.844539-08:00 kali sshd-session[7121]: Disconnecting authenticating user testuser 192.168.66.109 port 39820: Too many authentication failures [preauth]
+2026-02-21T03:48:55.844719-08:00 kali sshd-session[7121]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.66.109  user=testuser
+2026-02-21T03:48:55.844753-08:00 kali sshd-session[7121]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-02-21T03:48:55.891972-08:00 kali sshd-session[7326]: Failed password for testuser from 192.168.66.109 port 54950 ssh2
+2026-02-21T03:48:55.961836-08:00 kali unix_chkpwd[7348]: password check failed for user (testuser)
+2026-02-21T03:48:55.964246-08:00 kali sshd-session[7346]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.66.109  user=testuser
+2026-02-21T03:48:55.965084-08:00 kali sshd-session[7346]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:48:55.965676-08:00 kali sshd-session[7346]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:48:55.965828-08:00 kali sshd-session[7346]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:48:55.965878-08:00 kali sshd-session[7346]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:48:55.974177-08:00 kali unix_chkpwd[7349]: password check failed for user (testuser)
+2026-02-21T03:48:55.974910-08:00 kali sshd-session[7326]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:48:55.974981-08:00 kali sshd-session[7326]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:48:55.975004-08:00 kali sshd-session[7326]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:48:55.975021-08:00 kali sshd-session[7326]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:48:55.991178-08:00 kali unix_chkpwd[7350]: password check failed for user (testuser)
+2026-02-21T03:48:55.991970-08:00 kali sshd-session[7307]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:48:55.992355-08:00 kali sshd-session[7307]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:48:55.992512-08:00 kali sshd-session[7307]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:48:55.992584-08:00 kali sshd-session[7307]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:48:56.330060-08:00 kali sshd-session[7295]: Failed password for testuser from 192.168.66.109 port 34172 ssh2
+2026-02-21T03:48:57.519085-08:00 kali sshd-session[7307]: Failed password for testuser from 192.168.66.109 port 34182 ssh2
+2026-02-21T03:48:57.842252-08:00 kali sshd-session[7346]: Failed password for testuser from 192.168.66.109 port 54956 ssh2
+2026-02-21T03:48:57.912225-08:00 kali unix_chkpwd[7367]: password check failed for user (testuser)
+2026-02-21T03:48:57.913208-08:00 kali sshd-session[7346]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:48:57.913508-08:00 kali sshd-session[7346]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:48:57.914101-08:00 kali sshd-session[7346]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:48:57.914519-08:00 kali sshd-session[7346]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:48:57.957291-08:00 kali unix_chkpwd[7368]: password check failed for user (testuser)
+2026-02-21T03:48:57.957843-08:00 kali sshd-session[7307]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:48:57.958035-08:00 kali sshd-session[7307]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:48:57.958468-08:00 kali sshd-session[7307]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:48:57.958817-08:00 kali sshd-session[7307]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:48:58.019718-08:00 kali unix_chkpwd[7369]: password check failed for user (testuser)
+2026-02-21T03:48:58.020571-08:00 kali sshd-session[7295]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:48:58.021490-08:00 kali sshd-session[7295]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:48:58.021674-08:00 kali sshd-session[7295]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:48:58.021931-08:00 kali sshd-session[7295]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:48:58.215973-08:00 kali sshd-session[7326]: Failed password for testuser from 192.168.66.109 port 54950 ssh2
+2026-02-21T03:48:59.582953-08:00 kali sshd-session[7307]: Failed password for testuser from 192.168.66.109 port 34182 ssh2
+2026-02-21T03:48:59.882417-08:00 kali unix_chkpwd[7386]: password check failed for user (testuser)
+2026-02-21T03:48:59.884495-08:00 kali sshd-session[7326]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:48:59.885621-08:00 kali sshd-session[7326]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:48:59.889617-08:00 kali sshd-session[7326]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:48:59.897692-08:00 kali sshd-session[7326]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:48:59.903361-08:00 kali unix_chkpwd[7387]: password check failed for user (testuser)
+2026-02-21T03:48:59.905158-08:00 kali sshd-session[7307]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:48:59.905560-08:00 kali sshd-session[7307]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:48:59.906100-08:00 kali sshd-session[7307]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:48:59.906725-08:00 kali sshd-session[7307]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:49:00.467759-08:00 kali sshd-session[7346]: Failed password for testuser from 192.168.66.109 port 54956 ssh2
+2026-02-21T03:49:00.709709-08:00 kali sshd-session[7295]: Failed password for testuser from 192.168.66.109 port 34172 ssh2
+2026-02-21T03:49:01.868679-08:00 kali unix_chkpwd[7404]: password check failed for user (testuser)
+2026-02-21T03:49:01.869375-08:00 kali sshd-session[7346]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:49:01.869500-08:00 kali sshd-session[7346]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:49:01.869551-08:00 kali sshd-session[7346]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:49:01.869575-08:00 kali sshd-session[7346]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:49:01.906937-08:00 kali sshd-session[7326]: Failed password for testuser from 192.168.66.109 port 54950 ssh2
+2026-02-21T03:49:01.938734-08:00 kali unix_chkpwd[7405]: password check failed for user (testuser)
+2026-02-21T03:49:01.940110-08:00 kali sshd-session[7295]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:49:01.940335-08:00 kali sshd-session[7295]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:49:01.940487-08:00 kali sshd-session[7295]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:49:01.940896-08:00 kali sshd-session[7295]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:49:02.028530-08:00 kali sshd-session[7307]: Failed password for testuser from 192.168.66.109 port 34182 ssh2
+2026-02-21T03:49:03.797180-08:00 kali unix_chkpwd[7422]: password check failed for user (testuser)
+2026-02-21T03:49:03.798709-08:00 kali sshd-session[7326]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:49:03.798791-08:00 kali sshd-session[7326]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:49:03.798832-08:00 kali sshd-session[7326]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:49:03.798845-08:00 kali sshd-session[7326]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:49:03.799505-08:00 kali unix_chkpwd[7423]: password check failed for user (testuser)
+2026-02-21T03:49:03.799937-08:00 kali sshd-session[7307]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:49:03.800012-08:00 kali sshd-session[7307]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:49:03.800028-08:00 kali sshd-session[7307]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:49:03.800041-08:00 kali sshd-session[7307]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:49:03.946277-08:00 kali sshd-session[7295]: Failed password for testuser from 192.168.66.109 port 34172 ssh2
+2026-02-21T03:49:04.436442-08:00 kali sshd-session[7346]: Failed password for testuser from 192.168.66.109 port 54956 ssh2
+2026-02-21T03:49:05.157262-08:00 kali sshd-session[7307]: Failed password for testuser from 192.168.66.109 port 34182 ssh2
+2026-02-21T03:49:05.760170-08:00 kali sshd-session[7326]: Failed password for testuser from 192.168.66.109 port 54950 ssh2
+2026-02-21T03:49:05.765184-08:00 kali unix_chkpwd[7440]: password check failed for user (testuser)
+2026-02-21T03:49:05.765505-08:00 kali sshd-session[7346]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:49:05.765552-08:00 kali sshd-session[7346]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:49:05.765622-08:00 kali sshd-session[7346]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:49:05.765846-08:00 kali sshd-session[7346]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:49:05.768293-08:00 kali unix_chkpwd[7441]: password check failed for user (testuser)
+2026-02-21T03:49:05.768488-08:00 kali sshd-session[7307]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:49:05.768554-08:00 kali sshd-session[7307]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:49:05.769173-08:00 kali sshd-session[7307]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:49:05.769323-08:00 kali sshd-session[7307]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:49:05.847709-08:00 kali unix_chkpwd[7442]: password check failed for user (testuser)
+2026-02-21T03:49:05.847954-08:00 kali sshd-session[7295]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:49:05.848048-08:00 kali sshd-session[7295]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:49:05.848443-08:00 kali sshd-session[7295]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:49:05.848550-08:00 kali sshd-session[7295]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:49:07.260425-08:00 kali sshd-session[7346]: Failed password for testuser from 192.168.66.109 port 54956 ssh2
+2026-02-21T03:49:07.705043-08:00 kali unix_chkpwd[7459]: password check failed for user (testuser)
+2026-02-21T03:49:07.705963-08:00 kali sshd-session[7326]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:49:07.706113-08:00 kali sshd-session[7326]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:49:07.706170-08:00 kali sshd-session[7326]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:49:07.706232-08:00 kali sshd-session[7326]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:49:07.731181-08:00 kali unix_chkpwd[7460]: password check failed for user (testuser)
+2026-02-21T03:49:07.731850-08:00 kali sshd-session[7346]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:49:07.731897-08:00 kali sshd-session[7346]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:49:07.731913-08:00 kali sshd-session[7346]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:49:07.732332-08:00 kali sshd-session[7346]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:49:07.799687-08:00 kali sshd-session[7295]: Failed password for testuser from 192.168.66.109 port 34172 ssh2
+2026-02-21T03:49:08.068166-08:00 kali sshd-session[7307]: Failed password for testuser from 192.168.66.109 port 34182 ssh2
+2026-02-21T03:49:09.538476-08:00 kali sshd-session[7326]: Failed password for testuser from 192.168.66.109 port 54950 ssh2
+2026-02-21T03:49:09.644258-08:00 kali sshd-session[7307]: error: maximum authentication attempts exceeded for testuser from 192.168.66.109 port 34182 ssh2 [preauth]
+2026-02-21T03:49:09.644369-08:00 kali sshd-session[7307]: Disconnecting authenticating user testuser 192.168.66.109 port 34182: Too many authentication failures [preauth]
+2026-02-21T03:49:09.644385-08:00 kali sshd-session[7307]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.66.109  user=testuser
+2026-02-21T03:49:09.644478-08:00 kali sshd-session[7307]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-02-21T03:49:09.662649-08:00 kali unix_chkpwd[7477]: password check failed for user (testuser)
+2026-02-21T03:49:09.663524-08:00 kali sshd-session[7326]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:49:09.663591-08:00 kali sshd-session[7326]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:49:09.663628-08:00 kali sshd-session[7326]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:49:09.664184-08:00 kali sshd-session[7326]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:49:09.752587-08:00 kali unix_chkpwd[7480]: password check failed for user (testuser)
+2026-02-21T03:49:09.754763-08:00 kali sshd-session[7478]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.66.109  user=testuser
+2026-02-21T03:49:09.755025-08:00 kali sshd-session[7478]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:49:09.755550-08:00 kali sshd-session[7478]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:49:09.755598-08:00 kali sshd-session[7478]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:49:09.755634-08:00 kali sshd-session[7478]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:49:09.760464-08:00 kali unix_chkpwd[7481]: password check failed for user (testuser)
+2026-02-21T03:49:09.760733-08:00 kali sshd-session[7295]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:49:09.760810-08:00 kali sshd-session[7295]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:49:09.760839-08:00 kali sshd-session[7295]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:49:09.760889-08:00 kali sshd-session[7295]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:49:09.892192-08:00 kali sshd-session[7346]: Failed password for testuser from 192.168.66.109 port 54956 ssh2
+2026-02-21T03:49:11.646697-08:00 kali unix_chkpwd[7498]: password check failed for user (testuser)
+2026-02-21T03:49:11.647323-08:00 kali sshd-session[7346]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:49:11.647475-08:00 kali sshd-session[7346]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:49:11.647920-08:00 kali sshd-session[7346]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:49:11.648014-08:00 kali sshd-session[7346]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:49:11.812395-08:00 kali sshd-session[7326]: Failed password for testuser from 192.168.66.109 port 54950 ssh2
+2026-02-21T03:49:12.175259-08:00 kali sshd-session[7295]: Failed password for testuser from 192.168.66.109 port 34172 ssh2
+2026-02-21T03:49:12.557646-08:00 kali sshd-session[7478]: Failed password for testuser from 192.168.66.109 port 33544 ssh2
+2026-02-21T03:49:13.385613-08:00 kali sshd-session[7346]: Failed password for testuser from 192.168.66.109 port 54956 ssh2
+2026-02-21T03:49:13.542221-08:00 kali sshd-session[7326]: error: maximum authentication attempts exceeded for testuser from 192.168.66.109 port 54950 ssh2 [preauth]
+2026-02-21T03:49:13.542461-08:00 kali sshd-session[7326]: Disconnecting authenticating user testuser 192.168.66.109 port 54950: Too many authentication failures [preauth]
+2026-02-21T03:49:13.545033-08:00 kali sshd-session[7326]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.66.109  user=testuser
+2026-02-21T03:49:13.545914-08:00 kali sshd-session[7326]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-02-21T03:49:13.572443-08:00 kali sshd-session[7346]: error: maximum authentication attempts exceeded for testuser from 192.168.66.109 port 54956 ssh2 [preauth]
+2026-02-21T03:49:13.572977-08:00 kali sshd-session[7346]: Disconnecting authenticating user testuser 192.168.66.109 port 54956: Too many authentication failures [preauth]
+2026-02-21T03:49:13.576089-08:00 kali sshd-session[7346]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.66.109  user=testuser
+2026-02-21T03:49:13.576608-08:00 kali sshd-session[7346]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-02-21T03:49:13.642403-08:00 kali sshd-session[7295]: error: maximum authentication attempts exceeded for testuser from 192.168.66.109 port 34172 ssh2 [preauth]
+2026-02-21T03:49:13.642611-08:00 kali sshd-session[7295]: Disconnecting authenticating user testuser 192.168.66.109 port 34172: Too many authentication failures [preauth]
+2026-02-21T03:49:13.642700-08:00 kali sshd-session[7295]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.66.109  user=testuser
+2026-02-21T03:49:13.642817-08:00 kali sshd-session[7295]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-02-21T03:49:13.659765-08:00 kali unix_chkpwd[7519]: password check failed for user (testuser)
+2026-02-21T03:49:13.660636-08:00 kali sshd-session[7478]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:49:13.660770-08:00 kali sshd-session[7478]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:49:13.660925-08:00 kali sshd-session[7478]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:49:13.660963-08:00 kali sshd-session[7478]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:49:13.676637-08:00 kali unix_chkpwd[7521]: password check failed for user (testuser)
+2026-02-21T03:49:13.680199-08:00 kali sshd-session[7515]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.66.109  user=testuser
+2026-02-21T03:49:13.680545-08:00 kali sshd-session[7515]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:49:13.680784-08:00 kali sshd-session[7515]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:49:13.681106-08:00 kali sshd-session[7515]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:49:13.681151-08:00 kali sshd-session[7515]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:49:13.692295-08:00 kali unix_chkpwd[7523]: password check failed for user (testuser)
+2026-02-21T03:49:13.693497-08:00 kali sshd-session[7517]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.66.109  user=testuser
+2026-02-21T03:49:13.693850-08:00 kali sshd-session[7517]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:49:13.693900-08:00 kali sshd-session[7517]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:49:13.693966-08:00 kali sshd-session[7517]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:49:13.693996-08:00 kali sshd-session[7517]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:49:13.748302-08:00 kali unix_chkpwd[7524]: password check failed for user (testuser)
+2026-02-21T03:49:13.749274-08:00 kali sshd-session[7520]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.66.109  user=testuser
+2026-02-21T03:49:13.749414-08:00 kali sshd-session[7520]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:49:13.749473-08:00 kali sshd-session[7520]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:49:13.749525-08:00 kali sshd-session[7520]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:49:13.749576-08:00 kali sshd-session[7520]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:49:15.017858-08:00 kali sshd-session[7515]: Failed password for testuser from 192.168.66.109 port 33554 ssh2
+2026-02-21T03:49:15.256617-08:00 kali sshd-session[7478]: Failed password for testuser from 192.168.66.109 port 33544 ssh2
+2026-02-21T03:49:15.570813-08:00 kali sshd-session[7520]: Failed password for testuser from 192.168.66.109 port 54414 ssh2
+2026-02-21T03:49:15.667230-08:00 kali unix_chkpwd[7541]: password check failed for user (testuser)
+2026-02-21T03:49:15.668872-08:00 kali sshd-session[7478]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:49:15.669381-08:00 kali sshd-session[7478]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:49:15.669446-08:00 kali sshd-session[7478]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:49:15.669500-08:00 kali sshd-session[7478]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:49:15.669752-08:00 kali unix_chkpwd[7542]: password check failed for user (testuser)
+2026-02-21T03:49:15.670134-08:00 kali sshd-session[7515]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:49:15.670226-08:00 kali sshd-session[7515]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:49:15.670340-08:00 kali sshd-session[7515]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:49:15.670816-08:00 kali sshd-session[7515]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:49:15.705510-08:00 kali unix_chkpwd[7543]: password check failed for user (testuser)
+2026-02-21T03:49:15.705784-08:00 kali sshd-session[7520]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:49:15.705818-08:00 kali sshd-session[7520]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:49:15.705869-08:00 kali sshd-session[7520]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:49:15.705888-08:00 kali sshd-session[7520]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:49:15.741464-08:00 kali sshd-session[7517]: Failed password for testuser from 192.168.66.109 port 33566 ssh2
+2026-02-21T03:49:17.273637-08:00 kali sshd-session[7478]: Failed password for testuser from 192.168.66.109 port 33544 ssh2
+2026-02-21T03:49:17.600234-08:00 kali unix_chkpwd[7560]: password check failed for user (testuser)
+2026-02-21T03:49:17.601885-08:00 kali sshd-session[7478]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:49:17.602008-08:00 kali sshd-session[7478]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:49:17.602259-08:00 kali sshd-session[7478]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:49:17.602410-08:00 kali sshd-session[7478]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:49:17.620120-08:00 kali unix_chkpwd[7561]: password check failed for user (testuser)
+2026-02-21T03:49:17.620376-08:00 kali sshd-session[7517]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:49:17.620448-08:00 kali sshd-session[7517]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:49:17.620462-08:00 kali sshd-session[7517]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:49:17.620475-08:00 kali sshd-session[7517]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:49:17.852148-08:00 kali sshd-session[7520]: Failed password for testuser from 192.168.66.109 port 54414 ssh2
+2026-02-21T03:49:18.333329-08:00 kali sshd-session[7515]: Failed password for testuser from 192.168.66.109 port 33554 ssh2
+2026-02-21T03:49:19.433214-08:00 kali sshd-session[7517]: Failed password for testuser from 192.168.66.109 port 33566 ssh2
+2026-02-21T03:49:19.578765-08:00 kali unix_chkpwd[7578]: password check failed for user (testuser)
+2026-02-21T03:49:19.580466-08:00 kali sshd-session[7515]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:49:19.580622-08:00 kali sshd-session[7515]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:49:19.580646-08:00 kali sshd-session[7515]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:49:19.580697-08:00 kali sshd-session[7515]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:49:19.625400-08:00 kali unix_chkpwd[7579]: password check failed for user (testuser)
+2026-02-21T03:49:19.630706-08:00 kali sshd-session[7517]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:49:19.630968-08:00 kali sshd-session[7517]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:49:19.631056-08:00 kali sshd-session[7517]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:49:19.632516-08:00 kali sshd-session[7517]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:49:19.660490-08:00 kali sshd-session[7478]: Failed password for testuser from 192.168.66.109 port 33544 ssh2
+2026-02-21T03:49:19.665124-08:00 kali unix_chkpwd[7580]: password check failed for user (testuser)
+2026-02-21T03:49:19.666844-08:00 kali sshd-session[7520]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:49:19.667007-08:00 kali sshd-session[7520]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:49:19.667382-08:00 kali sshd-session[7520]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:49:19.667451-08:00 kali sshd-session[7520]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:49:21.137848-08:00 kali sshd-session[7520]: Failed password for testuser from 192.168.66.109 port 54414 ssh2
+2026-02-21T03:49:21.503174-08:00 kali unix_chkpwd[7597]: password check failed for user (testuser)
+2026-02-21T03:49:21.503826-08:00 kali sshd-session[7478]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:49:21.503953-08:00 kali sshd-session[7478]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:49:21.510306-08:00 kali sshd-session[7478]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:49:21.510396-08:00 kali sshd-session[7478]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:49:21.582378-08:00 kali unix_chkpwd[7598]: password check failed for user (testuser)
+2026-02-21T03:49:21.582518-08:00 kali sshd-session[7520]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:49:21.582610-08:00 kali sshd-session[7520]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:49:21.582709-08:00 kali sshd-session[7520]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:49:21.582723-08:00 kali sshd-session[7520]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:49:21.658056-08:00 kali sshd-session[7515]: Failed password for testuser from 192.168.66.109 port 33554 ssh2
+2026-02-21T03:49:21.688886-08:00 kali sshd-session[7517]: Failed password for testuser from 192.168.66.109 port 33566 ssh2
+2026-02-21T03:49:23.300872-08:00 kali sshd-session[7478]: Failed password for testuser from 192.168.66.109 port 33544 ssh2
+2026-02-21T03:49:23.410417-08:00 kali sshd-session[7520]: Failed password for testuser from 192.168.66.109 port 54414 ssh2
+2026-02-21T03:49:23.502505-08:00 kali unix_chkpwd[7615]: password check failed for user (testuser)
+2026-02-21T03:49:23.502762-08:00 kali sshd-session[7478]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:49:23.502827-08:00 kali sshd-session[7478]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:49:23.503778-08:00 kali sshd-session[7478]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:49:23.503852-08:00 kali sshd-session[7478]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:49:23.516435-08:00 kali unix_chkpwd[7616]: password check failed for user (testuser)
+2026-02-21T03:49:23.516932-08:00 kali sshd-session[7515]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:49:23.517006-08:00 kali sshd-session[7515]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:49:23.517052-08:00 kali sshd-session[7515]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:49:23.517067-08:00 kali sshd-session[7515]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:49:23.523040-08:00 kali unix_chkpwd[7617]: password check failed for user (testuser)
+2026-02-21T03:49:23.523634-08:00 kali sshd-session[7517]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:49:23.524603-08:00 kali sshd-session[7517]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:49:23.525283-08:00 kali sshd-session[7517]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:49:23.525543-08:00 kali sshd-session[7517]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:49:23.536532-08:00 kali unix_chkpwd[7618]: password check failed for user (testuser)
+2026-02-21T03:49:23.536685-08:00 kali sshd-session[7520]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:49:23.536783-08:00 kali sshd-session[7520]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:49:23.536823-08:00 kali sshd-session[7520]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:49:23.536877-08:00 kali sshd-session[7520]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:49:25.532566-08:00 kali sshd-session[7478]: Failed password for testuser from 192.168.66.109 port 33544 ssh2
+2026-02-21T03:49:25.549825-08:00 kali sshd-session[7520]: Failed password for testuser from 192.168.66.109 port 54414 ssh2
+2026-02-21T03:49:25.713139-08:00 kali sshd-session[7517]: Failed password for testuser from 192.168.66.109 port 33566 ssh2
+2026-02-21T03:49:25.721030-08:00 kali sshd-session[7515]: Failed password for testuser from 192.168.66.109 port 33554 ssh2
+2026-02-21T03:49:27.342433-08:00 kali sshd-session[7478]: error: maximum authentication attempts exceeded for testuser from 192.168.66.109 port 33544 ssh2 [preauth]
+2026-02-21T03:49:27.342658-08:00 kali sshd-session[7478]: Disconnecting authenticating user testuser 192.168.66.109 port 33544: Too many authentication failures [preauth]
+2026-02-21T03:49:27.342751-08:00 kali sshd-session[7478]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.66.109  user=testuser
+2026-02-21T03:49:27.342800-08:00 kali sshd-session[7478]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-02-21T03:49:27.348413-08:00 kali sshd[778]: drop connection #3 from [192.168.66.109]:42628 on [192.168.66.109]:22 penalty: failed authentication
+2026-02-21T03:49:27.373073-08:00 kali sshd[778]: drop connection #3 from [192.168.66.109]:42636 on [192.168.66.109]:22 penalty: failed authentication
+2026-02-21T03:49:27.386461-08:00 kali unix_chkpwd[7651]: password check failed for user (testuser)
+2026-02-21T03:49:27.389046-08:00 kali sshd-session[7515]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:49:27.389169-08:00 kali sshd-session[7515]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:49:27.389431-08:00 kali sshd-session[7515]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:49:27.389472-08:00 kali sshd-session[7515]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:49:27.400196-08:00 kali unix_chkpwd[7653]: password check failed for user (testuser)
+2026-02-21T03:49:27.401180-08:00 kali sshd-session[7517]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:49:27.401227-08:00 kali sshd-session[7517]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:49:27.401288-08:00 kali sshd-session[7517]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:49:27.401323-08:00 kali sshd-session[7517]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:49:27.432606-08:00 kali sshd[778]: drop connection #3 from [192.168.66.109]:42644 on [192.168.66.109]:22 penalty: failed authentication
+2026-02-21T03:49:27.445583-08:00 kali unix_chkpwd[7654]: password check failed for user (testuser)
+2026-02-21T03:49:27.446096-08:00 kali sshd-session[7520]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:49:27.446236-08:00 kali sshd-session[7520]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:49:27.446289-08:00 kali sshd-session[7520]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:49:27.446557-08:00 kali sshd-session[7520]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:49:27.662246-08:00 kali sshd[778]: drop connection #3 from [192.168.66.109]:42660 on [192.168.66.109]:22 penalty: failed authentication
+2026-02-21T03:49:27.894414-08:00 kali sshd[778]: drop connection #3 from [192.168.66.109]:42666 on [192.168.66.109]:22 penalty: failed authentication
+2026-02-21T03:49:28.122552-08:00 kali sshd[778]: drop connection #3 from [192.168.66.109]:42672 on [192.168.66.109]:22 penalty: failed authentication
+2026-02-21T03:49:28.350707-08:00 kali sshd[778]: drop connection #3 from [192.168.66.109]:42674 on [192.168.66.109]:22 penalty: failed authentication
+2026-02-21T03:49:28.578204-08:00 kali sshd[778]: drop connection #3 from [192.168.66.109]:42676 on [192.168.66.109]:22 penalty: failed authentication
+2026-02-21T03:49:29.212493-08:00 kali sshd-session[7515]: Failed password for testuser from 192.168.66.109 port 33554 ssh2
+2026-02-21T03:49:29.342256-08:00 kali unix_chkpwd[7680]: password check failed for user (testuser)
+2026-02-21T03:49:29.343127-08:00 kali sshd-session[7515]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:49:29.343373-08:00 kali sshd-session[7515]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:49:29.343399-08:00 kali sshd-session[7515]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:49:29.343764-08:00 kali sshd-session[7515]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:49:29.638215-08:00 kali sshd-session[7517]: Failed password for testuser from 192.168.66.109 port 33566 ssh2
+2026-02-21T03:49:29.805856-08:00 kali sshd-session[7520]: Failed password for testuser from 192.168.66.109 port 54414 ssh2
+2026-02-21T03:49:31.317110-08:00 kali unix_chkpwd[7697]: password check failed for user (testuser)
+2026-02-21T03:49:31.317461-08:00 kali sshd-session[7517]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-02-21T03:49:31.317551-08:00 kali sshd-session[7517]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-02-21T03:49:31.317571-08:00 kali sshd-session[7517]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2026-02-21T03:49:31.317588-08:00 kali sshd-session[7517]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'testuser')
+2026-02-21T03:49:31.328733-08:00 kali sshd-session[7520]: error: maximum authentication attempts exceeded for testuser from 192.168.66.109 port 54414 ssh2 [preauth]
+2026-02-21T03:49:31.328898-08:00 kali sshd-session[7520]: Disconnecting authenticating user testuser 192.168.66.109 port 54414: Too many authentication failures [preauth]
+2026-02-21T03:49:31.328975-08:00 kali sshd-session[7520]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.66.109  user=testuser
+2026-02-21T03:49:31.328998-08:00 kali sshd-session[7520]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-02-21T03:49:31.347147-08:00 kali sshd-session[7515]: Failed password for testuser from 192.168.66.109 port 33554 ssh2
+2026-02-21T03:49:33.226564-08:00 kali sshd-session[7515]: error: maximum authentication attempts exceeded for testuser from 192.168.66.109 port 33554 ssh2 [preauth]
+2026-02-21T03:49:33.227057-08:00 kali sshd-session[7515]: Disconnecting authenticating user testuser 192.168.66.109 port 33554: Too many authentication failures [preauth]
+2026-02-21T03:49:33.229234-08:00 kali sshd-session[7515]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.66.109  user=testuser
+2026-02-21T03:49:33.232477-08:00 kali sshd-session[7515]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-02-21T03:49:33.274870-08:00 kali sshd-session[7517]: Failed password for testuser from 192.168.66.109 port 33566 ssh2
+2026-02-21T03:49:35.195286-08:00 kali sshd-session[7517]: error: maximum authentication attempts exceeded for testuser from 192.168.66.109 port 33566 ssh2 [preauth]
+2026-02-21T03:49:35.196761-08:00 kali sshd-session[7517]: Disconnecting authenticating user testuser 192.168.66.109 port 33566: Too many authentication failures [preauth]
+2026-02-21T03:49:35.198275-08:00 kali sshd-session[7517]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.66.109  user=testuser
+2026-02-21T03:49:35.198386-08:00 kali sshd-session[7517]: PAM service(sshd) ignoring max retries; 6 > 3
