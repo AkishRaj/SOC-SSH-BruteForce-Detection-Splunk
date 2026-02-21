@@ -208,7 +208,7 @@ index=main sourcetype=linux_secure "failed authentication"
 
 `Cybersecurity` `SOC` `Splunk` `SIEM` `Hydra` `BruteForce` 
 `LogAnalysis` `KaliLinux` `EthicalHacking` `BlueTeam`
-```
+
 
 
 
