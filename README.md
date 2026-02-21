@@ -153,20 +153,25 @@ index=main sourcetype=linux_secure "failed authentication"
 
 ## 📸 Screenshots
 
+### SSH Enable
+<img width="1120" height="543" alt="Screenshot 2026-02-21 181036" src="https://github.com/user-attachments/assets/9fd011d9-285d-428e-b3e7-0314d429231a" />
+
+
 ### Hydra Attack Running
-![Hydra Attack](screenshots/hydra_attack.png)
+<img width="1122" height="1079" alt="Screenshot 2026-02-21 183135" src="https://github.com/user-attachments/assets/22b29f19-9dae-438a-a800-cb10d4cdf784" />
 
 ### Splunk Search Results
-![Splunk Search](screenshots/splunk_search.png)
+<img width="1919" height="945" alt="Screenshot 2026-02-21 181228" src="https://github.com/user-attachments/assets/b6f0d06e-3a1e-46e7-a4f6-b9e8e1c9f176" />
 
 ### SOC Dashboard
-![Dashboard](screenshots/dashboard.png)
+<img width="1919" height="955" alt="Screenshot 2026-02-21 182444" src="https://github.com/user-attachments/assets/8494a102-6f03-4fbb-bac2-5cb28759f475" />
+
 
 ---
 
 ## 🔑 Key Findings
 
-- **60+ failed login attempts** generated in under 2 minutes
+- **failed login attempts** generated in under 2 minutes
 - All attempts originated from IP `192.168.66.109`
 - Attack pattern shows rapid sequential password attempts
 - Splunk successfully detected and visualized the brute-force pattern
@@ -193,9 +198,9 @@ index=main sourcetype=linux_secure "failed authentication"
 
 ## 👤 Author
 
-**Your Name**
+**Akish Raj.A**
 - LinkedIn: [your linkedin url]
-- GitHub: [your github url]
+
 
 ---
 
@@ -205,29 +210,7 @@ index=main sourcetype=linux_secure "failed authentication"
 `LogAnalysis` `KaliLinux` `EthicalHacking` `BlueTeam`
 ```
 
----
 
-## Step 4 — Create Screenshots Folder
-
-1. On GitHub → Click **Add File → Create New File**
-2. Type: `screenshots/.gitkeep`
-3. Commit it
-4. Now upload your 6 screenshots into the `screenshots` folder
-
----
-
-## Step 5 — Upload auth.log
-
-1. GitHub → **Add File → Upload Files**
-2. Upload your `auth.log` file
-3. This shows recruiters **real evidence** of your work
-
----
-
-## Step 6 — Add Topics to Repository
-
-1. On your repo page click **⚙️ gear icon** next to About
-2. Add these topics:
 ```
 cybersecurity splunk siem soc brute-force kali-linux 
 hydra log-analysis blue-team ethical-hacking
